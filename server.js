@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const errorHandler = require("errorhandler");
-const e = require("cors");
+const morgan = require("morgan");
 
 const apiRouter = require("./api/api");
 
